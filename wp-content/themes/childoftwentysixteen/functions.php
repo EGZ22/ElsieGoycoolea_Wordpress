@@ -1,5 +1,11 @@
 <?php
 
+function wpb_add_google_fonts() {
+
+wp_enqueue_style( 'wpb-google-fonts','https://fonts.googleapis.com/css?family=BioRhyme=Expanded', false );
+//grabbed this from 'standard' on the google font card//
+}
+
 function my_theme_enqueue_styles () {
 
 	$parent_style = 'twentysixteen-style'; //This is 'twentysixteen-style' for the Twenty Sixteen theme.
