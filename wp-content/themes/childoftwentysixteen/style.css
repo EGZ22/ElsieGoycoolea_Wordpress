@@ -8,41 +8,114 @@ Template: twentysixteen
 */
 
 @import url("../twentysixteen/style.css");
-@import url('https://fonts.googleapis.com/css?family=BioRhyme+Expanded');
-/*font-family: 'BioRhyme Expanded', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:500');
+/*font-family: 'Poppins', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Fascinate');
+/*font-family: 'Fascinate', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Hind');
+/*font-family: 'Hind', sans-serif;*/
 
-.site-branding .site-title a {
-	color: #00b9eb;
-}
-.site-branding .site-title a:hover, .site-branding .site-title a:focus {
-    color: #007acc;
-}
-
-.site-description {
-    font-size: 1rem;  
-}
-.site-header {
-    background-color: #CDDC39;
-}
-
-.entry-title {
-	font-family: 'BioRhyme Expanded', serif
-}
-
-.main-navigation a {
-	color: #b1001b;
-}
 
 @media screen and (min-width: 56.875em) {
 .widget .widget-title {
 	font-size: 1rem;
 }
 
-.entry-header ::before {
-	background-color: chartreuse;
-	content: "Featured Content";
-	display: block;
-	text-align: center;
-	font-size: 80%;
-	padding: 1em;
+body {
+	color:#ffffff;
+	font-family: 'Hind', sans-serif;
 }
+
+
+.site-branding .site-title a {
+	color: #08756b;
+	font-family: 'Fascinate', serif;
+	font-size: 55px;
+
+}
+
+.site-branding .site-title a:hover, .site-branding .site-title a:focus {
+    color: #000000;
+}
+
+/* for Elsie's Portfolio line */
+
+.site-description {
+	color: #000000;
+    font-size: 1rem;  
+}
+/* for Interactive Media Work line */
+
+.site-header-main {
+    background-color: #CDDC39;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+/*for light green header */
+
+.entry-title a {
+	font-family: 'Poppins', serif;
+	color: #ffffff;
+}
+
+.entry-title a:hover {
+	font-family: 'Poppins', serif;
+	color: #CDDC39;
+}
+/* for entry posts titles */
+
+.main-navigation a {
+	color: #000000;
+}
+
+.main-navigation a hover {
+	color: #CDDC39;
+}
+/************************************/
+
+.site {
+	background-color:#08756b;
+}
+/* background color */
+
+.entry-title a {
+	font-family: 'Poppins', serif;
+	color: #ffffff;
+}
+
+.entry-title a:hover {
+	font-family: 'Poppins', serif;
+	color: #CDDC39;
+}
+/* for entry posts titles */
+
+.entry-footer a:hover, .entry-footer a:focus {
+    color: #ffffff;
+}
+
+.entry-footer a {
+	color:#CDDC39;
+}
+/*left sidebar for each post */
+
+.entry-content {
+	background-color: #12544e;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+/* background color of entry posts */
+
+.site-info a {
+	color:#CDDC39;
+}
+
+.site-info a:hover{
+	color:#ffffff;
+}
+/* footer */
+
+
